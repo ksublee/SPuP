@@ -3,3 +3,5 @@ ppt/~*
 hw/*
 my_test.txt
 __pycache__/
+scores.csv
+*\~
