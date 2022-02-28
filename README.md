@@ -10,6 +10,7 @@
   * (Grus) [Data Science from Scratch](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X), O'Reilly
   * (McKinney) [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793), O'Reilly
   * (Harrison) [Illustrated Guide to Python 3](https://www.amazon.com/Illustrated-Guide-Python-Walkthrough-Illustrations/dp/1977921752), CreateSpace Independent Publishing Platform
+  * (Slatkin) [Effective Python](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134853989), Addison-Wesley Professional
 * Python 학습을 위한 사이트
   * [Codeacademy](https://www.codecademy.com/learn/python)
   * [Datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)
