@@ -13137,17 +13137,6 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>번외 : 만약 Spyder를 이용 중이라면, Spyder 오른쪽 하단의 IPython Console을 이용하여 위의 문장을 실행시켜 보자.
-Spyder는 Anaconda 배포판을 통해 설치할 수 있는 Python 개발 환경이다.
-아래 그림의 In [1]: 오른쪽 부분에 <code>print('This is my first Python program.')</code> 를 입력하고 엔터를 입력한다.</p>
-<p><img src="https://github.com/ksublee/SPuP/blob/master/figure/console.png?raw=true" width="500"></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="&#45936;&#51060;&#53552;-&#53440;&#51077;">&#45936;&#51060;&#53552; &#53440;&#51077;<a class="anchor-link" href="#&#45936;&#51060;&#53552;-&#53440;&#51077;">&#182;</a></h3><p>프로그래밍에 사용되는 데이터들은 데이터 타입(데이터 형)을 구분한다.</p>
 <p>Python에는 크게 세 가지 데이터 타입이 존재</p>
 <ul>
@@ -13758,22 +13747,6 @@ Spyder는 Anaconda 배포판을 통해 설치할 수 있는 Python 개발 환경
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>번외 : 만약 Spyder를 이용 중이라면 Variable explorer를 이용하여 입력한 변수의 내용을 확인할 수 있다.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://github.com/ksublee/SPuP/blob/master/figure/variable.png?raw=true" width="600"></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>위의 예제들처럼 대입 연산의 오른쪽에는 상수값이 오거나, 다음의 예제들처럼 기존의 변수 혹은 기존의 변수를 이용한 식 등이 올 수 있다.</p>
 
 </div>
@@ -13852,10 +13825,17 @@ Spyder는 Anaconda 배포판을 통해 설치할 수 있는 Python 개발 환경
 <li><p>변수명을 짓는 방법</p>
 <ul>
 <li>알아보기 쉽게 짓는다.<ul>
-<li><code>apartmentname</code> -&gt; <code>apartment_name</code> 혹은 <code>apartmentName</code></li>
+<li><code>apartmentname</code> -&gt; <code>apartment_name</code> <ul>
+<li>소문자와 밑줄을 이용한 이런 표기법을 snake case라고 한다.</li>
 </ul>
 </li>
-<li>무슨 변수를 나타내는지 알아보도록 짓는다.<ul>
+<li>반면 (나중에 공부할) 클래스의 이름은 PerfectTool과 같이 각 단어의 첫 글자를 대문자로 하는 것이 보통이다.<ul>
+<li>Pascal case 혹은 camel case라고 한다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>무슨 변수를 나타내는지 이해할 수 있도록 짓는다.<ul>
 <li><code>afmowpv</code> : 아무 의미 없어 보이며 이렇게 짓지 않음</li>
 <li><code>average_num_students</code> : 변수명이 다소 긴 것처럼 느껴지지만, 학생 수의 평균을 의미하는 변수 임을 추측할 수 있음</li>
 </ul>
@@ -14395,7 +14375,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input any string : &quot;</span><span class="p">)</span>
@@ -14460,7 +14440,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">input_string</span><span class="p">)</span>
@@ -14502,7 +14482,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please input your name correctly : &quot;</span><span class="p">)</span>
@@ -14541,7 +14521,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
@@ -14586,7 +14566,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">2</span> <span class="o">&lt;</span> <span class="mf">0.9</span>
@@ -14602,7 +14582,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -14619,7 +14599,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">3</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">3</span>
@@ -14635,7 +14615,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[36]:</div>
+    <div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -14660,7 +14640,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># True의 값을 가지는 변수 a</span>
@@ -14693,7 +14673,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># False의 값을 가지는 변수 b</span>
@@ -14733,7 +14713,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">True</span>
@@ -14749,7 +14729,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[2]:</div>
+    <div class="prompt output_prompt">Out[40]:</div>
 
 
 
@@ -14766,7 +14746,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">False</span>
@@ -14782,7 +14762,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
@@ -14799,7 +14779,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">False</span> <span class="ow">and</span> <span class="kc">True</span>
@@ -14815,7 +14795,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[42]:</div>
 
 
 
@@ -14832,7 +14812,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">False</span> <span class="ow">and</span> <span class="kc">False</span>
@@ -14848,7 +14828,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -14865,7 +14845,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">or</span> <span class="kc">True</span>
@@ -14881,7 +14861,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -14898,7 +14878,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">or</span> <span class="kc">False</span>
@@ -14914,7 +14894,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -14931,7 +14911,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">False</span> <span class="ow">or</span> <span class="kc">True</span>
@@ -14947,7 +14927,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[46]:</div>
 
 
 
@@ -14964,7 +14944,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kc">False</span> <span class="ow">or</span> <span class="kc">False</span>
@@ -14980,7 +14960,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -14997,7 +14977,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="ow">not</span> <span class="kc">True</span>
@@ -15013,7 +14993,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[48]:</div>
 
 
 
@@ -15030,7 +15010,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="ow">not</span> <span class="kc">False</span>
@@ -15046,7 +15026,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -15071,7 +15051,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
@@ -15107,7 +15087,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">4</span> <span class="o">==</span> <span class="mi">4</span>
@@ -15123,7 +15103,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[51]:</div>
 
 
 
@@ -15148,7 +15128,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;Korea&quot;</span> <span class="o">==</span> <span class="s2">&quot;Japan&quot;</span>
@@ -15164,7 +15144,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[52]:</div>
 
 
 
@@ -15189,7 +15169,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">c</span> <span class="o">=</span> <span class="kc">False</span>
@@ -15206,7 +15186,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[42]:</div>
+    <div class="prompt output_prompt">Out[53]:</div>
 
 
 
@@ -15239,7 +15219,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
@@ -15255,7 +15235,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -15328,7 +15308,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">egg</span> <span class="o">=</span> <span class="mi">138</span>
@@ -15342,7 +15322,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">egg</span> <span class="o">==</span> <span class="n">spam</span>
@@ -15358,7 +15338,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[57]:</div>
 
 
 
@@ -15375,7 +15355,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">egg</span> <span class="o">!=</span> <span class="n">spam</span>
@@ -15391,7 +15371,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[47]:</div>
+    <div class="prompt output_prompt">Out[58]:</div>
 
 
 
@@ -15408,7 +15388,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Kim&#39;</span>
@@ -15425,7 +15405,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[59]:</div>
 
 
 
@@ -15454,7 +15434,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
@@ -15472,7 +15452,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[49]:</div>
+    <div class="prompt output_prompt">Out[60]:</div>
 
 
 
@@ -15489,7 +15469,7 @@ y =  2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">j</span> <span class="o">=</span> <span class="mi">10</span>
@@ -15507,7 +15487,7 @@ y =  2
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[50]:</div>
+    <div class="prompt output_prompt">Out[61]:</div>
 
 
 
@@ -15563,7 +15543,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Kyungsub Lee&quot;</span>
@@ -15576,7 +15556,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
@@ -15615,7 +15595,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="s2">&quot;45&quot;</span>
@@ -15628,7 +15608,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
@@ -15667,7 +15647,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">long_string</span> <span class="o">=</span> <span class="s1">&#39;&#39;&#39;</span>
@@ -15705,7 +15685,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">first_name</span> <span class="o">=</span> <span class="s2">&quot;Kyungsub&quot;</span>
@@ -15747,7 +15727,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;My age is &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span><span class="p">)</span>
@@ -15778,7 +15758,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;My age is &quot;</span> <span class="o">+</span> <span class="s2">&quot;20&quot;</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span><span class="p">)</span>
@@ -15809,7 +15789,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 숫자를 문자열로 변경하지 않고 연결하였기 때문에 에러가 발생하는 코드이다.</span>
@@ -15833,7 +15813,7 @@ With this code, anybody can hack a server like a pro.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-59-340b4e5cdeaa&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-70-340b4e5cdeaa&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      1</span> <span class="ansi-red-intense-fg ansi-bold"># 숫자를 문자열로 변경하지 않고 연결하였기 때문에 에러가 발생하는 코드이다.</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;My age is &#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">+</span> <span class="ansi-cyan-intense-fg ansi-bold">20</span> <span class="ansi-yellow-intense-fg ansi-bold">+</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;.&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
@@ -15847,7 +15827,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 비슷한 예제</span>
@@ -15888,7 +15868,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;a&#39;</span> <span class="o">+</span> <span class="s1">&#39;bcde&#39;</span>
@@ -15904,7 +15884,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[61]:</div>
+    <div class="prompt output_prompt">Out[72]:</div>
 
 
 
@@ -15921,7 +15901,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">5</span> <span class="o">*</span> <span class="s1">&#39;abc&#39;</span>
@@ -15937,7 +15917,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[62]:</div>
+    <div class="prompt output_prompt">Out[73]:</div>
 
 
 
@@ -15954,7 +15934,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">3</span> <span class="o">+</span> <span class="s1">&#39;three&#39;</span>
@@ -15977,7 +15957,7 @@ With this code, anybody can hack a server like a pro.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-63-3b9786c72eb4&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-74-3b9786c72eb4&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-cyan-intense-fg ansi-bold">3</span> <span class="ansi-yellow-intense-fg ansi-bold">+</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;three&#39;</span>
 
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;</pre>
@@ -15990,7 +15970,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;a&#39;</span> <span class="o">&lt;</span> <span class="mi">3</span>
@@ -16013,7 +15993,7 @@ With this code, anybody can hack a server like a pro.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-64-5e7599499276&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-75-5e7599499276&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-blue-intense-fg ansi-bold">&#39;a&#39;</span> <span class="ansi-yellow-intense-fg ansi-bold">&lt;</span> <span class="ansi-cyan-intense-fg ansi-bold">3</span>
 
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>: &#39;&lt;&#39; not supported between instances of &#39;str&#39; and &#39;int&#39;</pre>
@@ -16026,7 +16006,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;3&#39;</span> <span class="o">&gt;</span> <span class="mi">3</span>
@@ -16049,7 +16029,7 @@ With this code, anybody can hack a server like a pro.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-65-2c90c6ecfb90&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-76-2c90c6ecfb90&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-blue-intense-fg ansi-bold">&#39;3&#39;</span> <span class="ansi-yellow-intense-fg ansi-bold">&gt;</span> <span class="ansi-cyan-intense-fg ansi-bold">3</span>
 
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>: &#39;&gt;&#39; not supported between instances of &#39;str&#39; and &#39;int&#39;</pre>
@@ -16076,7 +16056,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span>
@@ -16092,7 +16072,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[66]:</div>
+    <div class="prompt output_prompt">Out[77]:</div>
 
 
 
@@ -16109,7 +16089,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;ab&quot;</span> <span class="o">+</span> <span class="s2">&quot;cd&quot;</span>
@@ -16125,7 +16105,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[67]:</div>
+    <div class="prompt output_prompt">Out[78]:</div>
 
 
 
@@ -16157,7 +16137,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;a&#39;</span> <span class="o">*</span> <span class="s1">&#39;a&#39;</span>
@@ -16180,7 +16160,7 @@ With this code, anybody can hack a server like a pro.
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-68-f770e0284bd4&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-79-f770e0284bd4&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-blue-intense-fg ansi-bold">&#39;a&#39;</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;a&#39;</span>
 
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>: can&#39;t multiply sequence by non-int of type &#39;str&#39;</pre>
@@ -16212,7 +16192,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;This isn&#39;</span><span class="n">t</span> <span class="n">flying</span><span class="p">,</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">falling</span> <span class="k">with</span> <span class="n">style</span><span class="o">!</span><span class="err">&#39;</span>
@@ -16233,7 +16213,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_subarea output_text output_error">
 <pre>
-<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-69-712ccfb24280&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">1</span>
+<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-80-712ccfb24280&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">1</span>
 <span class="ansi-yellow-intense-fg ansi-bold">    &#39;This isn&#39;t flying, this is falling with style!&#39;</span>
 <span class="ansi-white-intense-fg ansi-bold">              ^</span>
 <span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid syntax
@@ -16257,7 +16237,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;This isn</span><span class="se">\&#39;</span><span class="s1">t flying, this is falling with style!&#39;</span>
@@ -16273,7 +16253,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[70]:</div>
+    <div class="prompt output_prompt">Out[81]:</div>
 
 
 
@@ -16299,7 +16279,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\&quot;</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -16330,7 +16310,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -16372,7 +16352,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">first_letter</span> <span class="o">=</span> <span class="s2">&quot;uncopywritable&quot;</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -16404,7 +16384,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_word</span> <span class="o">=</span> <span class="s2">&quot;uncopywritable&quot;</span>
@@ -16437,7 +16417,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
@@ -16470,7 +16450,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fourth_letter</span> <span class="o">=</span> <span class="n">my_word</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
@@ -16512,7 +16492,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_name</span> <span class="o">=</span> <span class="s2">&quot;KS Lee&quot;</span>
@@ -16529,7 +16509,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[77]:</div>
+    <div class="prompt output_prompt">Out[88]:</div>
 
 
 
@@ -16564,7 +16544,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;EGG&quot;</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
@@ -16580,7 +16560,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[78]:</div>
+    <div class="prompt output_prompt">Out[89]:</div>
 
 
 
@@ -16597,7 +16577,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[90]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_string</span> <span class="o">=</span> <span class="s2">&quot;spam_egg&quot;</span>
@@ -16614,7 +16594,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[79]:</div>
+    <div class="prompt output_prompt">Out[90]:</div>
 
 
 
@@ -16641,7 +16621,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">this_year</span> <span class="o">=</span> <span class="mi">2016</span>
@@ -16665,7 +16645,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">this_year_string</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">this_year</span><span class="p">)</span>
@@ -16689,7 +16669,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[93]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">this_year</span> <span class="o">+</span> <span class="n">this_year</span>
@@ -16705,7 +16685,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[82]:</div>
+    <div class="prompt output_prompt">Out[93]:</div>
 
 
 
@@ -16722,7 +16702,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[94]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">this_year_string</span> <span class="o">+</span> <span class="n">this_year_string</span>
@@ -16738,7 +16718,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[83]:</div>
+    <div class="prompt output_prompt">Out[94]:</div>
 
 
 
@@ -16786,7 +16766,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[95]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;March2019.csv&#39;</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.csv&#39;</span><span class="p">)</span>
@@ -16802,7 +16782,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[84]:</div>
+    <div class="prompt output_prompt">Out[95]:</div>
 
 
 
@@ -16819,7 +16799,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[96]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;March2019.csv&#39;</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;sv&#39;</span><span class="p">)</span>
@@ -16835,7 +16815,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[85]:</div>
+    <div class="prompt output_prompt">Out[96]:</div>
 
 
 
@@ -16852,7 +16832,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;March2019.csv&#39;</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;abc&#39;</span><span class="p">)</span>
@@ -16868,7 +16848,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[86]:</div>
+    <div class="prompt output_prompt">Out[97]:</div>
 
 
 
@@ -16885,7 +16865,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;March2019.ppt&#39;</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;March&#39;</span><span class="p">)</span>
@@ -16901,7 +16881,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[87]:</div>
+    <div class="prompt output_prompt">Out[98]:</div>
 
 
 
@@ -16918,7 +16898,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;March2019.ppt&#39;</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;march&#39;</span><span class="p">)</span>
@@ -16934,7 +16914,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[88]:</div>
+    <div class="prompt output_prompt">Out[99]:</div>
 
 
 
@@ -16961,7 +16941,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot; Introduction to Python    &quot;</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
@@ -16977,7 +16957,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[89]:</div>
+    <div class="prompt output_prompt">Out[100]:</div>
 
 
 
@@ -17007,7 +16987,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;How are you? I am fine, and you?&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
@@ -17023,7 +17003,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[90]:</div>
+    <div class="prompt output_prompt">Out[101]:</div>
 
 
 
@@ -17040,7 +17020,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s2">&quot;Split_this_string_please&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)</span>
@@ -17056,7 +17036,7 @@ With this code, anybody can hack a server like a pro.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[91]:</div>
+    <div class="prompt output_prompt">Out[102]:</div>
 
 
 
@@ -17074,18 +17054,20 @@ With this code, anybody can hack a server like a pro.
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="%s&#47484;-&#51060;&#50857;&#54620;-&#47928;&#51088;&#50676;-&#52636;&#47141;">%s&#47484; &#51060;&#50857;&#54620; &#47928;&#51088;&#50676; &#52636;&#47141;<a class="anchor-link" href="#%s&#47484;-&#51060;&#50857;&#54620;-&#47928;&#51088;&#50676;-&#52636;&#47141;">&#182;</a></h3>
+<h3 id="%s&#47484;-&#51060;&#50857;&#54620;-&#47928;&#51088;&#50676;-&#52636;&#47141;">%s&#47484; &#51060;&#50857;&#54620; &#47928;&#51088;&#50676; &#52636;&#47141;<a class="anchor-link" href="#%s&#47484;-&#51060;&#50857;&#54620;-&#47928;&#51088;&#50676;-&#52636;&#47141;">&#182;</a></h3><p>아래는 C 스타일 형식의 문자열 출력 방식이다.</p>
+<p>문자열은 %s, 정수는 %d, 실수는 %f에 대응되며, 실수는 출력할 소수점 개수를 명시할 수 있다.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Tom&quot;</span>
 <span class="n">home</span> <span class="o">=</span> <span class="s2">&quot;New York&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;My name is </span><span class="si">%s</span><span class="s2"> and I am from </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">home</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;My name is </span><span class="si">%s</span><span class="s2"> and I am from </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">home</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -17119,6 +17101,212 @@ With this code, anybody can hack a server like a pro.
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">nationality</span> <span class="o">=</span> <span class="s1">&#39;Korea&#39;</span>
+<span class="n">formatted</span> <span class="o">=</span> <span class="s2">&quot;I am </span><span class="si">%d</span><span class="s2"> years old and from </span><span class="si">%s</span><span class="s2">.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">age</span><span class="p">,</span> <span class="n">nationality</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">formatted</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>I am 20 years old and from Korea.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mf">12.31645</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Today&#39;s temperature is </span><span class="si">%.1f</span><span class="s2"> degrees.&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Today&#39;s temperature is 12.3 degrees.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mf">12.31645</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Today&#39;s temperature is </span><span class="si">%.2f</span><span class="s2"> degrees.&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Today&#39;s temperature is 12.32 degrees.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="f-&#47928;&#51088;&#50676;&#51012;-&#51060;&#50857;&#54620;-&#52636;&#47141;-&#48169;&#48277;">f-&#47928;&#51088;&#50676;&#51012; &#51060;&#50857;&#54620; &#52636;&#47141; &#48169;&#48277;<a class="anchor-link" href="#f-&#47928;&#51088;&#50676;&#51012;-&#51060;&#50857;&#54620;-&#52636;&#47141;-&#48169;&#48277;">&#182;</a></h3><p>파이썬 3.6부터 도입된 방법으로 문자열 앞에 f로 시작하며, 위에서 사용했던 % 대신, { }를 사용한다.</p>
+<p>{ }안에 변수명을 넣어준다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Tom&quot;</span>
+<span class="n">home</span> <span class="o">=</span> <span class="s2">&quot;New York&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;My name is </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> and I am from </span><span class="si">{</span><span class="n">home</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>My name is Tom and I am from New York.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">nationality</span> <span class="o">=</span> <span class="s1">&#39;Korea&#39;</span>
+<span class="n">formatted</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;I am </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s2"> years old and from </span><span class="si">{</span><span class="n">nationality</span><span class="si">}</span><span class="s2">.&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">formatted</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>I am 20 years old and from Korea.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mf">12.31645</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Today&#39;s temperature is </span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> degrees.&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Today&#39;s temperature is 12.32 degrees.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -17130,7 +17318,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[93]:</div>
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your name: &#39;</span><span class="p">)</span>
@@ -17150,7 +17338,7 @@ With this code, anybody can hack a server like a pro.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Enter your name: Kyungsub Lee
+<pre>Enter your name: KS Lee
 </pre>
 </div>
 </div>
@@ -17161,7 +17349,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Are you really &#39;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s1">&#39;?&#39;</span><span class="p">)</span>
@@ -17181,7 +17369,7 @@ With this code, anybody can hack a server like a pro.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Are you really Kyungsub Lee?
+<pre>Are you really KS Lee?
 </pre>
 </div>
 </div>
@@ -17200,7 +17388,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Input any number: &#39;</span><span class="p">)</span>
@@ -17220,7 +17408,7 @@ With this code, anybody can hack a server like a pro.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Input any number: 1.1
+<pre>Input any number: 121
 </pre>
 </div>
 </div>
@@ -17242,7 +17430,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sqr</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">*</span> <span class="nb">float</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
@@ -17263,7 +17451,7 @@ With this code, anybody can hack a server like a pro.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>The square of num 1.1 is 1.2100000000000002
+<pre>The square of num 121 is 14641.0
 </pre>
 </div>
 </div>
@@ -17274,7 +17462,7 @@ With this code, anybody can hack a server like a pro.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#다른 print 방법, %f는 실수를 의미</span>
@@ -17295,7 +17483,7 @@ With this code, anybody can hack a server like a pro.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>The square of num 1.1 is 1.210000
+<pre>The square of num 121 is 14641.000000
 </pre>
 </div>
 </div>
@@ -17303,6 +17491,45 @@ With this code, anybody can hack a server like a pro.
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;The square of num </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s1"> is </span><span class="si">{</span><span class="n">sqr</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The square of num 121 is 14641.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#54028;&#51060;&#50028;-&#49828;&#53440;&#51068;-&#44032;&#51060;&#46300;">&#54028;&#51060;&#50028; &#49828;&#53440;&#51068; &#44032;&#51060;&#46300;<a class="anchor-link" href="#&#54028;&#51060;&#50028;-&#49828;&#53440;&#51068;-&#44032;&#51060;&#46300;">&#182;</a></h3><p><a href="https://www.python.org/dev/peps/pep-0008/">https://www.python.org/dev/peps/pep-0008/</a></p>
+
+</div>
+</div>
 </div>
     </div>
   </div>

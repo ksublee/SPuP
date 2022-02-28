@@ -13115,28 +13115,6 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>I want to print this sentence repeatedly.
-I want to print this sentence repeatedly.
-I want to print this sentence repeatedly.
-I want to print this sentence repeatedly.
-I want to print this sentence repeatedly.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13160,24 +13138,6 @@ I want to print this sentence repeatedly.
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>15
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13238,26 +13198,6 @@ while j &gt; 0:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello world
-Hello world
-Hello world
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13279,26 +13219,6 @@ Hello world
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello world, iteration number :  1
-Hello world, iteration number :  2
-Hello world, iteration number :  3
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13354,7 +13274,7 @@ Hello world, iteration number :  3
 <ul>
 <li><code>while</code>문 검사에 사용하는 변수 <code>j</code>는 <code>while</code>문 바깥에서 미리 초기화</li>
 <li><code>while</code>문 내에서 <code>j</code>의 값을 변화시키면서 무한 루프를 방지</li>
-<li>반복문에 어떻게 작동하는지 이해가 힘들 경우 위 예제처럼 핵심 변수를 <code>print</code>하여 반복문의 원리를 파악한다.</li>
+<li>반복문이 어떻게 작동하는지 이해가 힘들 경우 위 예제처럼 핵심 변수를 <code>print</code>하여 반복문의 원리를 파악한다.</li>
 </ul>
 
 </div>
@@ -13440,6 +13360,24 @@ Hello world, iteration number :  3
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#48152;&#48373;&#47928;&#51032;-&#51068;&#48152;&#51201;-&#54805;&#53468;">&#48152;&#48373;&#47928;&#51032; &#51068;&#48152;&#51201; &#54805;&#53468;<a class="anchor-link" href="#&#48152;&#48373;&#47928;&#51032;-&#51068;&#48152;&#51201;-&#54805;&#53468;">&#182;</a></h4><p>반복문을 설계하여야 할 때 다음 사항들을 생각해 보자.</p>
+<ul>
+<li>counter로 사용할 변수 설정</li>
+<li>counter 변수를 반복문 바깥에서 초기화</li>
+<li>반복문이 언제 끝나야 하는지 결정하는 end-test 설정</li>
+<li>반복문 내에서 실행할 코드를 작성<ul>
+<li>counter를 변화시키는 작업 포함</li>
+</ul>
+</li>
+<li>반복문이 종료되었을 때 이를 이용해 무엇을 할지 결정</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13684,24 +13622,6 @@ If type q, you can quit : q
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#48152;&#48373;&#47928;&#51032;-&#51068;&#48152;&#51201;-&#54805;&#53468;">&#48152;&#48373;&#47928;&#51032; &#51068;&#48152;&#51201; &#54805;&#53468;<a class="anchor-link" href="#&#48152;&#48373;&#47928;&#51032;-&#51068;&#48152;&#51201;-&#54805;&#53468;">&#182;</a></h4><p>반복문을 설계하여야 할 때 다음 사항들을 생각해 보자.</p>
-<ul>
-<li>counter로 사용할 변수 설정</li>
-<li>counter 변수를 반복문 바깥에서 초기화</li>
-<li>반복문이 언제 끝나야 하는지 결정하는 end-test 설정</li>
-<li>반복문 내에서 실행할 코드를 작성<ul>
-<li>counter를 변화시키는 작업 포함</li>
-</ul>
-</li>
-<li>반복문이 종료되었을 때 이를 이용해 무엇을 할지 결정</li>
-</ul>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
